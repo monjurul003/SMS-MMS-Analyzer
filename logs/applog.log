@@ -1,0 +1,326 @@
+2010-09-29 15:08:12,192 - com.gpit.dev.bss.cad.gpttsreportdatadumper.Main - INFO -  Application Started Wed Sep 29 15:08:12 BDT 2010
+2010-09-29 15:10:00,391 - com.gpit.dev.bss.cad.gpttsreportdatadumper.ScheduleTask - INFO -  Scheduler Started Wed Sep 29 15:10:00 BDT 2010
+2010-09-29 15:10:00,391 - com.gpit.dev.bss.cad.gpttsreportdatadumper.ScheduleTask - INFO -  Get input configuration
+2010-09-29 15:10:02,673 - com.gpit.dev.bss.cad.gpttsreportdatadumper.ConfigurationManager - INFO - inside getConfiguration
+2010-09-29 15:10:09,722 - com.gpit.dev.bss.cad.gpttsreportdatadumper.ScheduleTask - INFO -  Prepare SQL query and qrite data into output file
+2010-09-29 15:10:09,893 - com.gpit.dev.bss.cad.gpttsreportdatadumper.DriverManagerDataSource - INFO -  Database connection Started Wed Sep 29 15:10:09 BDT 2010
+2010-09-29 15:10:12,879 - com.gpit.dev.bss.cad.gpttsreportdatadumper.ScheduleTask - INFO -  Load Email Host
+2010-09-29 15:10:12,879 - com.gpit.dev.bss.cad.gpttsreportdatadumper.WriteReportData - INFO -  Report generatation Started Wed Sep 29 15:10:12 BDT 2010
+2010-09-29 15:10:12,894 - com.gpit.dev.bss.cad.gpttsreportdatadumper.WriteReportData - INFO -  Close recordset object
+2010-09-29 15:10:12,894 - com.gpit.dev.bss.cad.gpttsreportdatadumper.WriteReportData - INFO -  Close statement object
+2010-09-29 15:10:12,910 - com.gpit.dev.bss.cad.gpttsreportdatadumper.WriteReportData - INFO -  Close connection object
+2010-09-29 15:10:12,925 - com.gpit.dev.bss.cad.gpttsreportdatadumper.WriteReportData - INFO -  Report Genaration completed
+2010-09-29 15:10:13,051 - com.gpit.dev.bss.cad.gpttsreportdatadumper.ScheduleTask - INFO -  Scheduler completed
+2010-09-29 15:12:00,015 - com.gpit.dev.bss.cad.gpttsreportdatadumper.ScheduleTask - INFO -  Scheduler Started Wed Sep 29 15:12:00 BDT 2010
+2010-09-29 15:12:00,015 - com.gpit.dev.bss.cad.gpttsreportdatadumper.ScheduleTask - INFO -  Get input configuration
+2010-09-29 15:12:00,015 - com.gpit.dev.bss.cad.gpttsreportdatadumper.ConfigurationManager - INFO - inside getConfiguration
+2010-09-29 15:12:00,046 - com.gpit.dev.bss.cad.gpttsreportdatadumper.ScheduleTask - INFO -  Prepare SQL query and qrite data into output file
+2010-09-29 15:12:00,062 - com.gpit.dev.bss.cad.gpttsreportdatadumper.DriverManagerDataSource - INFO -  Database connection Started Wed Sep 29 15:12:00 BDT 2010
+2010-09-29 15:12:00,999 - com.gpit.dev.bss.cad.gpttsreportdatadumper.ScheduleTask - INFO -  Load Email Host
+2010-09-29 15:12:00,999 - com.gpit.dev.bss.cad.gpttsreportdatadumper.WriteReportData - INFO -  Report generatation Started Wed Sep 29 15:12:00 BDT 2010
+2010-09-29 15:12:01,031 - com.gpit.dev.bss.cad.gpttsreportdatadumper.WriteReportData - INFO -  Close recordset object
+2010-09-29 15:12:01,031 - com.gpit.dev.bss.cad.gpttsreportdatadumper.WriteReportData - INFO -  Close statement object
+2010-09-29 15:12:01,062 - com.gpit.dev.bss.cad.gpttsreportdatadumper.WriteReportData - INFO -  Close connection object
+2010-09-29 15:12:01,062 - com.gpit.dev.bss.cad.gpttsreportdatadumper.WriteReportData - INFO -  Report Genaration completed
+2010-09-29 15:12:01,109 - com.gpit.dev.bss.cad.gpttsreportdatadumper.ScheduleTask - INFO -  Scheduler completed
+2013-02-04 15:05:40,271 - com.gpit.dev.bss.cad.gpttsreportdatadumper.Main - INFO -  Application Started Mon Feb 04 15:05:40 BDT 2013
+2013-04-29 10:18:12,010 - com.gpit.es.cs.emailsender.Main - INFO -  Application Started Mon Apr 29 10:18:11 BDT 2013
+2013-04-29 10:19:36,796 - com.gpit.es.cs.emailsender.Main - INFO -  Application Started Mon Apr 29 10:19:36 BDT 2013
+2013-04-29 10:36:43,723 - com.gpit.es.cs.emailsender.Main - INFO -  Application Started Mon Apr 29 10:36:43 BDT 2013
+2013-04-29 10:37:00,065 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Scheduler Started Mon Apr 29 10:37:00 BDT 2013
+2013-04-29 10:37:00,081 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Get input configuration
+2013-04-29 10:37:00,190 - com.gpit.es.cs.emailsender.ConfigurationManager - INFO - inside getConfiguration
+2013-04-29 10:37:00,831 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Prepare SQL query and qrite data into output file
+2013-04-29 10:37:00,862 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection Started Mon Apr 29 10:37:00 BDT 2013
+2013-04-29 10:37:01,112 - com.gpit.es.cs.emailsender.DriverManagerDataSource - FATAL - Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+10.10.18.206:1521:GPESB
+
+2013-04-29 10:37:01,190 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection completed
+2013-04-29 10:37:01,284 - com.gpit.es.cs.emailsender.Main - FATAL - 
+2013-04-29 10:44:28,624 - com.gpit.es.cs.emailsender.Main - INFO -  Application Started Mon Apr 29 10:44:28 BDT 2013
+2013-04-29 10:45:00,060 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Scheduler Started Mon Apr 29 10:45:00 BDT 2013
+2013-04-29 10:45:00,076 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Get input configuration
+2013-04-29 10:45:00,122 - com.gpit.es.cs.emailsender.ConfigurationManager - INFO - inside getConfiguration
+2013-04-29 10:45:00,279 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Prepare SQL query and qrite data into output file
+2013-04-29 10:45:00,294 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection Started Mon Apr 29 10:45:00 BDT 2013
+2013-04-29 10:45:00,404 - com.gpit.es.cs.emailsender.DriverManagerDataSource - FATAL - Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+10.10.18.205:1521:GPESB
+
+2013-04-29 10:45:00,466 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection completed
+2013-04-29 10:45:00,482 - com.gpit.es.cs.emailsender.Main - FATAL - 
+2013-04-29 10:47:31,833 - com.gpit.es.cs.emailsender.Main - INFO -  Application Started Mon Apr 29 10:47:31 BDT 2013
+2013-04-29 10:48:00,035 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Scheduler Started Mon Apr 29 10:48:00 BDT 2013
+2013-04-29 10:48:00,035 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Get input configuration
+2013-04-29 10:48:00,081 - com.gpit.es.cs.emailsender.ConfigurationManager - INFO - inside getConfiguration
+2013-04-29 10:48:00,269 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Prepare SQL query and qrite data into output file
+2013-04-29 10:48:00,269 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection Started Mon Apr 29 10:48:00 BDT 2013
+2013-04-29 10:48:00,378 - com.gpit.es.cs.emailsender.DriverManagerDataSource - FATAL - Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+gpgrid01-vip:1521:GPESB
+
+2013-04-29 10:48:00,441 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection completed
+2013-04-29 10:48:00,472 - com.gpit.es.cs.emailsender.Main - FATAL - 
+2013-04-29 10:49:00,014 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Scheduler Started Mon Apr 29 10:49:00 BDT 2013
+2013-04-29 10:49:00,014 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Get input configuration
+2013-04-29 10:49:00,014 - com.gpit.es.cs.emailsender.ConfigurationManager - INFO - inside getConfiguration
+2013-04-29 10:49:00,030 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Prepare SQL query and qrite data into output file
+2013-04-29 10:49:00,030 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection Started Mon Apr 29 10:49:00 BDT 2013
+2013-04-29 10:49:00,045 - com.gpit.es.cs.emailsender.DriverManagerDataSource - FATAL - Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+10.10.18.206:1521:GPESB
+
+2013-04-29 10:49:00,061 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection completed
+2013-04-29 10:49:00,108 - com.gpit.es.cs.emailsender.Main - FATAL - 
+2013-04-29 10:50:00,009 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Scheduler Started Mon Apr 29 10:50:00 BDT 2013
+2013-04-29 10:50:00,009 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Get input configuration
+2013-04-29 10:50:00,009 - com.gpit.es.cs.emailsender.ConfigurationManager - INFO - inside getConfiguration
+2013-04-29 10:50:00,025 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Prepare SQL query and qrite data into output file
+2013-04-29 10:50:00,025 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection Started Mon Apr 29 10:50:00 BDT 2013
+2013-04-29 10:50:00,025 - com.gpit.es.cs.emailsender.DriverManagerDataSource - FATAL - Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+10.10.18.206:1521:GPESB
+
+2013-04-29 10:50:00,040 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection completed
+2013-04-29 10:50:00,087 - com.gpit.es.cs.emailsender.Main - FATAL - 
+2013-04-29 10:50:46,552 - com.gpit.es.cs.emailsender.Main - INFO -  Application Started Mon Apr 29 10:50:46 BDT 2013
+2013-04-29 10:51:00,051 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Scheduler Started Mon Apr 29 10:51:00 BDT 2013
+2013-04-29 10:51:00,051 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Get input configuration
+2013-04-29 10:51:00,098 - com.gpit.es.cs.emailsender.ConfigurationManager - INFO - inside getConfiguration
+2013-04-29 10:51:00,285 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Prepare SQL query and qrite data into output file
+2013-04-29 10:51:00,285 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection Started Mon Apr 29 10:51:00 BDT 2013
+2013-04-29 10:51:00,395 - com.gpit.es.cs.emailsender.DriverManagerDataSource - FATAL - Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+gpgrid02-vip:1521:GPESB
+
+2013-04-29 10:51:00,426 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection completed
+2013-04-29 10:51:00,457 - com.gpit.es.cs.emailsender.Main - FATAL - 
+2013-04-29 10:51:36,688 - com.gpit.es.cs.emailsender.Main - INFO -  Application Started Mon Apr 29 10:51:36 BDT 2013
+2013-04-29 10:52:00,046 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Scheduler Started Mon Apr 29 10:52:00 BDT 2013
+2013-04-29 10:52:00,046 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Get input configuration
+2013-04-29 10:52:00,108 - com.gpit.es.cs.emailsender.ConfigurationManager - INFO - inside getConfiguration
+2013-04-29 10:52:00,280 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Prepare SQL query and qrite data into output file
+2013-04-29 10:52:00,280 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection Started Mon Apr 29 10:52:00 BDT 2013
+2013-04-29 10:52:00,390 - com.gpit.es.cs.emailsender.DriverManagerDataSource - FATAL - Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+gpgrid01-vip:1521:GPESB
+
+2013-04-29 10:52:00,436 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection completed
+2013-04-29 10:52:00,468 - com.gpit.es.cs.emailsender.Main - FATAL - 
+2013-04-29 10:53:13,711 - com.gpit.es.cs.emailsender.Main - INFO -  Application Started Mon Apr 29 10:53:13 BDT 2013
+2013-04-29 10:54:00,051 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Scheduler Started Mon Apr 29 10:54:00 BDT 2013
+2013-04-29 10:54:00,051 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Get input configuration
+2013-04-29 10:54:00,098 - com.gpit.es.cs.emailsender.ConfigurationManager - INFO - inside getConfiguration
+2013-04-29 10:54:00,285 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Prepare SQL query and qrite data into output file
+2013-04-29 10:54:00,285 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection Started Mon Apr 29 10:54:00 BDT 2013
+2013-04-29 10:54:01,645 - com.gpit.es.cs.emailsender.DriverManagerDataSource - FATAL - Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+gpgrid01-vip:1521:gpesb
+
+2013-04-29 10:54:01,707 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection completed
+2013-04-29 10:54:01,754 - com.gpit.es.cs.emailsender.Main - FATAL - 
+2013-04-29 10:55:11,420 - com.gpit.es.cs.emailsender.Main - INFO -  Application Started Mon Apr 29 10:55:11 BDT 2013
+2013-04-29 10:56:00,040 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Scheduler Started Mon Apr 29 10:56:00 BDT 2013
+2013-04-29 10:56:00,040 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Get input configuration
+2013-04-29 10:56:00,087 - com.gpit.es.cs.emailsender.ConfigurationManager - INFO - inside getConfiguration
+2013-04-29 10:56:00,275 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Prepare SQL query and qrite data into output file
+2013-04-29 10:56:00,275 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection Started Mon Apr 29 10:56:00 BDT 2013
+2013-04-29 10:56:00,384 - com.gpit.es.cs.emailsender.DriverManagerDataSource - FATAL - Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+10.10.18.206:1521:gpesb
+
+2013-04-29 10:56:00,431 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection completed
+2013-04-29 10:56:00,462 - com.gpit.es.cs.emailsender.Main - FATAL - 
+2013-04-29 11:05:15,197 - com.gpit.es.cs.emailsender.Main - INFO -  Application Started Mon Apr 29 11:05:15 BDT 2013
+2013-04-29 11:06:00,062 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Scheduler Started Mon Apr 29 11:06:00 BDT 2013
+2013-04-29 11:06:00,062 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Get input configuration
+2013-04-29 11:06:00,109 - com.gpit.es.cs.emailsender.ConfigurationManager - INFO - inside getConfiguration
+2013-04-29 11:06:00,281 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Prepare SQL query and qrite data into output file
+2013-04-29 11:06:00,281 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection Started Mon Apr 29 11:06:00 BDT 2013
+2013-04-29 11:06:00,390 - com.gpit.es.cs.emailsender.DriverManagerDataSource - FATAL - Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+gpgrid01-vip:1521:gpesb
+
+2013-04-29 11:06:00,437 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection completed
+2013-04-29 11:06:00,452 - com.gpit.es.cs.emailsender.Main - FATAL - 
+2013-04-29 11:06:44,239 - com.gpit.es.cs.emailsender.Main - INFO -  Application Started Mon Apr 29 11:06:44 BDT 2013
+2013-04-29 11:07:00,038 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Scheduler Started Mon Apr 29 11:07:00 BDT 2013
+2013-04-29 11:07:00,054 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Get input configuration
+2013-04-29 11:07:00,101 - com.gpit.es.cs.emailsender.ConfigurationManager - INFO - inside getConfiguration
+2013-04-29 11:07:00,273 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Prepare SQL query and qrite data into output file
+2013-04-29 11:07:00,273 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection Started Mon Apr 29 11:07:00 BDT 2013
+2013-04-29 11:07:00,382 - com.gpit.es.cs.emailsender.DriverManagerDataSource - FATAL - Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+10.10.18.205:1521:gpesb
+
+2013-04-29 11:07:00,429 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection completed
+2013-04-29 11:07:00,445 - com.gpit.es.cs.emailsender.Main - FATAL - 
+2013-04-29 11:14:08,410 - com.gpit.es.cs.emailsender.Main - INFO -  Application Started Mon Apr 29 11:14:08 BDT 2013
+2013-04-29 11:15:00,052 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Scheduler Started Mon Apr 29 11:15:00 BDT 2013
+2013-04-29 11:15:00,052 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Get input configuration
+2013-04-29 11:15:00,099 - com.gpit.es.cs.emailsender.ConfigurationManager - INFO - inside getConfiguration
+2013-04-29 11:15:00,286 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Prepare SQL query and qrite data into output file
+2013-04-29 11:15:00,286 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection Started Mon Apr 29 11:15:00 BDT 2013
+2013-04-29 11:15:00,395 - com.gpit.es.cs.emailsender.DriverManagerDataSource - FATAL - Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+10.10.18.206:1521:gpesb
+
+2013-04-29 11:15:00,442 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection completed
+2013-04-29 11:15:00,474 - com.gpit.es.cs.emailsender.Main - FATAL - 
+2013-04-29 11:17:42,251 - com.gpit.es.cs.emailsender.Main - INFO -  Application Started Mon Apr 29 11:17:42 BDT 2013
+2013-04-29 11:18:00,032 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Scheduler Started Mon Apr 29 11:18:00 BDT 2013
+2013-04-29 11:18:00,032 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Get input configuration
+2013-04-29 11:18:00,078 - com.gpit.es.cs.emailsender.ConfigurationManager - INFO - inside getConfiguration
+2013-04-29 11:18:00,250 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Prepare SQL query and qrite data into output file
+2013-04-29 11:18:00,266 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection Started Mon Apr 29 11:18:00 BDT 2013
+2013-04-29 11:18:00,375 - com.gpit.es.cs.emailsender.DriverManagerDataSource - FATAL - Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+10.10.18.206:1521:gpesb
+
+2013-04-29 11:18:00,407 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection completed
+2013-04-29 11:18:00,438 - com.gpit.es.cs.emailsender.Main - FATAL - 
+2013-04-29 11:22:51,055 - com.gpit.es.cs.emailsender.Main - INFO -  Application Started Mon Apr 29 11:22:51 BDT 2013
+2013-04-29 11:23:00,054 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Scheduler Started Mon Apr 29 11:23:00 BDT 2013
+2013-04-29 11:23:00,054 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Get input configuration
+2013-04-29 11:23:00,101 - com.gpit.es.cs.emailsender.ConfigurationManager - INFO - inside getConfiguration
+2013-04-29 11:23:00,289 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Prepare SQL query and qrite data into output file
+2013-04-29 11:23:00,289 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection Started Mon Apr 29 11:23:00 BDT 2013
+2013-04-29 11:23:00,398 - com.gpit.es.cs.emailsender.DriverManagerDataSource - FATAL - Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+10.10.18.206:1521:gpesb
+
+2013-04-29 11:23:00,460 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection completed
+2013-04-29 11:23:00,476 - com.gpit.es.cs.emailsender.Main - FATAL - 
+2013-04-29 11:26:20,515 - com.gpit.es.cs.emailsender.Main - INFO -  Application Started Mon Apr 29 11:26:20 BDT 2013
+2013-04-29 11:27:00,045 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Scheduler Started Mon Apr 29 11:27:00 BDT 2013
+2013-04-29 11:27:00,045 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Get input configuration
+2013-04-29 11:27:00,107 - com.gpit.es.cs.emailsender.ConfigurationManager - INFO - inside getConfiguration
+2013-04-29 11:27:00,279 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Prepare SQL query and qrite data into output file
+2013-04-29 11:27:00,279 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection Started Mon Apr 29 11:27:00 BDT 2013
+2013-04-29 11:27:00,389 - com.gpit.es.cs.emailsender.DriverManagerDataSource - FATAL - Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+10.10.18.206:1521:gpesb
+
+2013-04-29 11:27:00,436 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection completed
+2013-04-29 11:27:00,451 - com.gpit.es.cs.emailsender.Main - FATAL - 
+2013-04-29 11:59:21,727 - com.gpit.es.cs.emailsender.Main - INFO -  Application Started Mon Apr 29 11:59:21 BDT 2013
+2013-04-29 12:00:00,050 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Scheduler Started Mon Apr 29 12:00:00 BDT 2013
+2013-04-29 12:00:00,050 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Get input configuration
+2013-04-29 12:00:00,097 - com.gpit.es.cs.emailsender.ConfigurationManager - INFO - inside getConfiguration
+2013-04-29 12:00:00,269 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Prepare SQL query and qrite data into output file
+2013-04-29 12:00:00,285 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection Started Mon Apr 29 12:00:00 BDT 2013
+2013-04-29 12:00:00,394 - com.gpit.es.cs.emailsender.DriverManagerDataSource - FATAL - Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+10.10.18.206:1521:gpesb
+
+2013-04-29 12:00:00,425 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection completed
+2013-04-29 12:00:00,457 - com.gpit.es.cs.emailsender.Main - FATAL - 
+2013-04-29 12:03:31,780 - com.gpit.es.cs.emailsender.Main - INFO -  Application Started Mon Apr 29 12:03:31 BDT 2013
+2013-04-29 12:04:00,048 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Scheduler Started Mon Apr 29 12:04:00 BDT 2013
+2013-04-29 12:04:00,048 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Get input configuration
+2013-04-29 12:04:00,095 - com.gpit.es.cs.emailsender.ConfigurationManager - INFO - inside getConfiguration
+2013-04-29 12:04:00,267 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Prepare SQL query and write data into output file
+2013-04-29 12:04:00,282 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection Started Mon Apr 29 12:04:00 BDT 2013
+2013-04-29 12:04:00,376 - com.gpit.es.cs.emailsender.DriverManagerDataSource - FATAL - Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+10.10.18.206:1521:gpesb
+
+2013-04-29 12:04:00,423 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection completed
+2013-04-29 12:04:00,454 - com.gpit.es.cs.emailsender.Main - FATAL - 
+2013-04-29 12:12:19,914 - com.gpit.es.cs.emailsender.Main - INFO -  Application Started Mon Apr 29 12:12:19 BDT 2013
+2013-04-29 12:13:00,111 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Scheduler Started Mon Apr 29 12:13:00 BDT 2013
+2013-04-29 12:13:00,111 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Get input configuration
+2013-04-29 12:13:00,174 - com.gpit.es.cs.emailsender.ConfigurationManager - INFO - inside getConfiguration
+2013-04-29 12:13:00,346 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Prepare SQL query and write data into output file
+2013-04-29 12:13:00,346 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection Started Mon Apr 29 12:13:00 BDT 2013
+2013-04-29 12:13:00,471 - com.gpit.es.cs.emailsender.DriverManagerDataSource - FATAL - Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+10.10.18.206:1521:gpesb
+
+2013-04-29 12:13:00,503 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection completed
+2013-04-29 12:13:00,534 - com.gpit.es.cs.emailsender.Main - FATAL - 
+2013-04-29 12:13:51,560 - com.gpit.es.cs.emailsender.Main - INFO -  Application Started Mon Apr 29 12:13:51 BDT 2013
+2013-04-29 12:14:00,035 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Scheduler Started Mon Apr 29 12:14:00 BDT 2013
+2013-04-29 12:14:00,035 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Get input configuration
+2013-04-29 12:14:00,082 - com.gpit.es.cs.emailsender.ConfigurationManager - INFO - inside getConfiguration
+2013-04-29 12:14:00,270 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Prepare SQL query and write data into output file
+2013-04-29 12:14:00,270 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection Started Mon Apr 29 12:14:00 BDT 2013
+2013-04-29 12:14:00,379 - com.gpit.es.cs.emailsender.DriverManagerDataSource - FATAL - Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+10.10.18.206:1521:gpesb
+
+2013-04-29 12:14:00,426 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection completed
+2013-04-29 12:14:00,442 - com.gpit.es.cs.emailsender.Main - FATAL - 
+2013-04-29 12:20:13,362 - com.gpit.es.cs.emailsender.Main - INFO -  Application Started Mon Apr 29 12:20:13 BDT 2013
+2013-04-29 12:21:00,051 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Scheduler Started Mon Apr 29 12:21:00 BDT 2013
+2013-04-29 12:21:00,051 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Get input configuration
+2013-04-29 12:21:00,114 - com.gpit.es.cs.emailsender.ConfigurationManager - INFO - inside getConfiguration
+2013-04-29 12:21:00,285 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Prepare SQL query and write data into output file
+2013-04-29 12:21:00,285 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection Started Mon Apr 29 12:21:00 BDT 2013
+2013-04-29 12:21:00,395 - com.gpit.es.cs.emailsender.DriverManagerDataSource - FATAL - Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+10.10.18.206:1521:GPESB
+
+2013-04-29 12:21:00,457 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection completed
+2013-04-29 12:21:00,489 - com.gpit.es.cs.emailsender.Main - FATAL - 
+2013-04-29 14:54:07,074 - com.gpit.es.cs.emailsender.Main - INFO -  Application Started Mon Apr 29 14:54:07 BDT 2013
+2013-04-29 14:55:00,078 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Scheduler Started Mon Apr 29 14:55:00 BDT 2013
+2013-04-29 14:55:00,078 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Get input configuration
+2013-04-29 14:55:00,140 - com.gpit.es.cs.emailsender.ConfigurationManager - INFO - inside getConfiguration
+2013-04-29 14:55:00,313 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Prepare SQL query and write data into output file
+2013-04-29 14:55:00,328 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection Started Mon Apr 29 14:55:00 BDT 2013
+2013-04-29 14:55:30,247 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Load Email Host
+2013-04-29 14:55:30,247 - com.gpit.es.cs.emailsender.WriteReportData - INFO -  Report generatation Started Mon Apr 29 14:55:30 BDT 2013
+2013-04-29 14:55:30,294 - com.gpit.es.cs.emailsender.WriteReportData - INFO -  Close recordset object
+2013-04-29 14:55:30,294 - com.gpit.es.cs.emailsender.WriteReportData - INFO -  Close statement object
+2013-04-29 14:55:30,294 - com.gpit.es.cs.emailsender.WriteReportData - INFO -  Close connection object
+2013-04-29 14:55:30,294 - com.gpit.es.cs.emailsender.WriteReportData - INFO -  Report Genaration completed
+2013-04-29 14:55:30,294 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Calling Email host to send Email
+2013-04-29 14:55:30,294 - com.gpit.es.cs.emailsender.SimpleJavaMailer - INFO -  Email sending Started Mon Apr 29 14:55:30 BDT 2013
+2013-04-29 14:55:30,826 - com.gpit.es.cs.emailsender.SimpleJavaMailer - INFO -  Email sending completed
+2013-04-29 14:55:30,873 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Scheduler completed
+2013-05-02 12:10:42,100 - com.gpit.es.cs.emailsender.Main - INFO -  Application Started Thu May 02 12:10:42 BDT 2013
+2013-05-02 12:11:00,718 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Scheduler Started Thu May 02 12:11:00 BDT 2013
+2013-05-02 12:11:00,718 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Get input configuration
+2013-05-02 12:11:01,563 - com.gpit.es.cs.emailsender.ConfigurationManager - INFO - inside getConfiguration
+2013-05-02 12:11:04,064 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Prepare SQL query and write data into output file
+2013-05-02 12:11:04,455 - com.gpit.es.cs.emailsender.DriverManagerDataSource - INFO -  Database connection Started Thu May 02 12:11:04 BDT 2013
+2013-05-02 12:11:35,173 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Load Email Host
+2013-05-02 12:11:35,173 - com.gpit.es.cs.emailsender.WriteReportData - INFO -  Report generatation Started Thu May 02 12:11:35 BDT 2013
+2013-05-02 12:11:35,251 - com.gpit.es.cs.emailsender.WriteReportData - INFO -  Close recordset object
+2013-05-02 12:11:35,251 - com.gpit.es.cs.emailsender.WriteReportData - INFO -  Close statement object
+2013-05-02 12:11:35,267 - com.gpit.es.cs.emailsender.WriteReportData - INFO -  Close connection object
+2013-05-02 12:11:35,267 - com.gpit.es.cs.emailsender.WriteReportData - INFO -  Report Genaration completed
+2013-05-02 12:11:35,267 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Calling Email host to send Email
+2013-05-02 12:11:35,267 - com.gpit.es.cs.emailsender.SimpleJavaMailer - INFO -  Email sending Started Thu May 02 12:11:35 BDT 2013
+2013-05-02 12:11:35,861 - com.gpit.es.cs.emailsender.SimpleJavaMailer - FATAL - Invalid Addresses
+2013-05-02 12:11:36,033 - com.gpit.es.cs.emailsender.SimpleJavaMailer - INFO -  Email sending completed
+2013-05-02 12:11:36,174 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Scheduler completed
+2013-07-03 12:12:27,834 - com.gpit.es.cs.emailsender.Main - INFO -  Application Started Wed Jul 03 12:12:27 BDT 2013
+2013-07-03 12:13:52,723 - com.gpit.es.cs.emailsender.Main - INFO -  Application Started Wed Jul 03 12:13:52 BDT 2013
+2013-07-03 12:14:00,029 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Scheduler Started Wed Jul 03 12:14:00 BDT 2013
+2013-07-03 12:14:00,030 - com.gpit.es.cs.emailsender.ScheduleTask - INFO -  Get input configuration
+2013-07-03 12:14:00,066 - com.gpit.es.cs.emailsender.ConfigurationManager - INFO - inside getConfiguration
+2013-07-03 12:14:00,118 - com.gpit.es.cs.emailsender.Main - FATAL - C:\MultipleSmsAnalyser\input\input.xml (The system cannot find the path specified)
+2013-07-03 12:17:08,178 - com.gpit.es.cs.emailsender.Main - INFO -  Application Started Wed Jul 03 12:17:08 BDT 2013

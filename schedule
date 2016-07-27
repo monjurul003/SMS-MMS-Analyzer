@@ -1,0 +1,1 @@
+*/1 * * * * java:com.gpit.es.cs.multiplesmsanalyzer.Main#executeTask C:\\JavaPrograms\\MultipleSmsAnalyser\\input\\input.xml

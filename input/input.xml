@@ -1,0 +1,32 @@
+<Configuration>
+	<OutputFileName>report1</OutputFileName>
+	<OutputDirectory>C:\\JavaPrograms\\MultipleSmsAnalyser\\output\\</OutputDirectory>
+	<IsLocal>true</IsLocal>
+	<SqlQuery>
+	 select trunc(sent_time) as sent_time,sender_msisdn,reciever_msisdn,count(1) from test_multiple_sms
+	 where sent_time>='7-July-2013'
+	 having count(1)>1 
+	 group by  sender_msisdn,reciever_msisdn,trunc(sent_time)
+	 order by count(1) desc
+	</SqlQuery>
+	
+	<DataSource>
+		<Driver>oracle.jdbc.driver.OracleDriver</Driver>
+		<Url>jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 10.12.2.138)(PORT = 1521))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = TESTDB)))</Url>
+		<User>ecaretest</User>
+		<Password>ecaretest123</Password>
+	</DataSource>
+	<SqlQuery1>
+	select count(ID) from WSC_SMS_MMS_LOG
+	where msisdn like '?' and user_id like '#'
+	and trunc(request_date)>='7-July-2013' 
+	and '13-Jul-2013'>=trunc(request_date)
+	</SqlQuery1>
+	<DataSource1>
+		<Driver>oracle.jdbc.driver.OracleDriver</Driver>
+		<Url>jdbc:oracle:thin:@(DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = 10.10.18.139)(PORT = 1521))(ADDRESS =(PROTOCOL = TCP)(HOST = 10.10.18.140)(PORT = 1521))(LOAD_BALANCE = yes))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = GPIVR)(FAILOVER_MODE =(TYPE = SELECT)(METHOD = BASIC)(RETRIES = 180)(DELAY = 5))))</Url>
+		<User>wsc</User>
+		<Password>wsc121</Password>
+	</DataSource1>
+	
+</Configuration>
